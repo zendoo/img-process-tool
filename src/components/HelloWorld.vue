@@ -1,32 +1,14 @@
 <template>
   <div class="hello">
-    <h1>{{ msg }}</h1>
-    <p>
-      For a guide and recipes on how to configure / customize this project,<br>
-      check out the
-      <a href="https://cli.vuejs.org" target="_blank" rel="noopener">vue-cli documentation</a>.
-    </p>
-    <h3>Installed CLI Plugins</h3>
-    <ul>
-      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-babel" target="_blank" rel="noopener">babel</a></li>
-      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-eslint" target="_blank" rel="noopener">eslint</a></li>
-    </ul>
-    <h3>Essential Links</h3>
-    <ul>
-      <li><a href="https://vuejs.org" target="_blank" rel="noopener">Core Docs</a></li>
-      <li><a href="https://forum.vuejs.org" target="_blank" rel="noopener">Forum</a></li>
-      <li><a href="https://chat.vuejs.org" target="_blank" rel="noopener">Community Chat</a></li>
-      <li><a href="https://twitter.com/vuejs" target="_blank" rel="noopener">Twitter</a></li>
-      <li><a href="https://news.vuejs.org" target="_blank" rel="noopener">News</a></li>
-    </ul>
-    <h3>Ecosystem</h3>
-    <ul>
-      <li><a href="https://router.vuejs.org" target="_blank" rel="noopener">vue-router</a></li>
-      <li><a href="https://vuex.vuejs.org" target="_blank" rel="noopener">vuex</a></li>
-      <li><a href="https://github.com/vuejs/vue-devtools#vue-devtools" target="_blank" rel="noopener">vue-devtools</a></li>
-      <li><a href="https://vue-loader.vuejs.org" target="_blank" rel="noopener">vue-loader</a></li>
-      <li><a href="https://github.com/vuejs/awesome-vue" target="_blank" rel="noopener">awesome-vue</a></li>
-    </ul>
+    <h1>提供丰富的图像处理api，基于【火山引擎-人像人体-人像编辑-智能绘图】的所有api（见：https://www.volcengine.com/docs/6791/1279296）</h1>
+    <h1>本公司由于资源包+本身调用量已经达到更高阶梯单价，故可以提供更低价的API，降低您的成本。</h1>
+    <h1>并承诺完全基于原火山Api调用，保持所有入参/返参不变，您可无缝迁移。</h1>
+    <h1 style="background-color: aquamarine;">咨询联系wx:  z544164616</h1>
+    <el-divider></el-divider>
+    <div style="box-shadow: var(--el-box-shadow-dark)">
+      <el-image src="apidesc.jpg"></el-image>
+    </div>
+    
   </div>
 </template>
 
@@ -34,7 +16,6 @@
 export default {
   name: 'HelloWorld',
   props: {
-    msg: String
   }
 }
 </script>
